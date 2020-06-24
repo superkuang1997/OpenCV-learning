@@ -4,7 +4,7 @@ import numpy as np
 def track_back(x):
     pass
 
-img = cv2.imread('../image/seal9.jpg')
+img = cv2.imread('../seal_recognition/roi.jpg')
 img = cv2.resize(img, (800, 600))
 cv2.namedWindow('window',cv2.WINDOW_AUTOSIZE)
 # COLOR_BGR2GRAY represents BGR → HSV
