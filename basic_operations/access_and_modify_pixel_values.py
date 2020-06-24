@@ -12,6 +12,7 @@ print(blue)
 img[100, 100] = [255, 255, 255]  # modify the pixel value
 print(img[100, 100])
 print('-' * 30)
+
 # better way: using array.item() and array.itemset()
 
 print(img.item(10, 10, 2))
